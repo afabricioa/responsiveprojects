@@ -1,0 +1,101 @@
+body{
+    display: block;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+}
+
+#title{
+    margin-top: 50px;
+    text-align: center;
+}
+
+p{
+    font-style: italic;
+    text-align: center;
+}
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: #1b1b32;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    background-color: #1b1b32;
+    width: 50%;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.inputs{
+    padding-bottom: 20px;
+}
+
+.inputs input, label, select{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.inputs label, select{
+    margin-left: 4%;
+}
+
+input, label{
+    padding-bottom: 10px;
+    display: block;
+}
+
+input, select{
+    border-radius: 5px;
+    border: none;
+    height: 38px;
+    padding: 5px;
+    color: rgb(124,124,124);
+    font-size: 15px;
+}
+
+select{
+    width: 92%;
+    height: 38px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+h3{
+    width: 90%;
+    margin: 0 auto;
+}
+
+textarea{
+    width: 90%;
+    margin: 0 5% 20px 5%;
+    min-height: 100px;
+}
+
+button{
+    display: block;
+    width: 91%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 20px;
+    background-color: rgb(62, 174, 104);
+    color: white;
+    border: none;
+}

@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: black;
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: #eeeeee;
+  width: 100%;
+  height: 12vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav img {
+  width: 110px;
+  height: 45px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-left: 10px;
+  color: black;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+
+header ul li {
+  padding-right: 60px;
+  font-size: 20px;
+}
+
+.container {
+  height: 88vh;
+  margin: 13vh auto;
+  background-color: #eeeeee;
+}
+
+.formulario {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.formulario #form {
+  padding-top: 25px;
+}
+
+.formulario input[type="email"] {
+  min-width: 275px;
+  padding: 10px;
+  height: 30px;
+}
+
+.formulario input[type="submit"] {
+  display: block;
+  margin: 25px auto;
+  width: 12%;
+  height: 35px;
+  font-size: 16px;
+  background-color: #113072;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: -40px;
+}
+
+.item .descricao {
+  width: 80%;
+  padding: 65px 0 0 20px;
+}
+
+.item p {
+  font-size: 17px;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+}
+
+#content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+#content2 .itemPrice {
+  width: 25%;
+  border: 2px solid #8a8c8d;
+  background-color: lightgray;
+  margin-right: 15px;
+}
+
+#content2 .itemPrice .descricaoPrice h2 {
+  padding: 10px;
+  text-align: center;
+  background-color: lightslategray;
+}
+
+#content2 .itemPrice .descricaoPrice h3 {
+  padding: 10px;
+  text-align: center;
+}
+
+#content2 .itemPrice .descricaoPrice p {
+  text-align: center;
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  #content2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

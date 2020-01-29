@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: black;
+    background-color: rgb(238, 238, 238);;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 12vh;
+
+    nav{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav img{
+        width: 110px;
+        height: 45px;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        margin-left: 10px;
+        color: black;
+        padding-top: 20px;
+        padding-right: 15px;
+    }
+
+    ul li{
+        padding-right: 60px;
+        font-size: 20px;
+    }
+}
+
+.container{
+    height: 88vh;
+    margin: 13vh auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.formulario{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+
+    #form{
+        padding-top: 25px;
+    }
+
+    input[type="email"]{
+        min-width: 275px;   
+        padding: 10px;
+        height: 30px;
+    }
+
+    input[type="submit"]{
+        display: block;
+        margin: 25px auto;
+        width: 12%;
+        height: 35px;
+        font-size: 16px;
+        background-color: #113072;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: -40px;
+
+    .descricao{
+        width: 80%;
+        padding: 65px 0 0 20px;
+    }
+    
+    p{
+        font-size: 17px;
+    }
+    
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+    display: flex;
+    margin: 50px auto;
+}
+
+#content2{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    .itemPrice{
+        width: 25%;
+        border: 2px solid rgb(138, 140, 141);
+        background-color: lightgray;
+        margin-right: 15px;
+
+        .descricaoPrice h2{
+            padding: 10px;
+            text-align: center;
+            background-color: lightslategray;
+        }
+
+        .descricaoPrice h3{
+            padding: 10px;
+            text-align: center;
+        }
+
+        .descricaoPrice p{
+            text-align: center;
+            padding: 5px;
+        }
+    }
+}
+
+@media(max-width: 600px){
+    #content2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}

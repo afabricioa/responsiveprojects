@@ -23,7 +23,6 @@ header{
     height: 12vh;
 
     nav{
-        
         display: flex;
         justify-content: space-between;
     }
@@ -74,7 +73,7 @@ header{
     input[type="submit"]{
         display: block;
         margin: 25px auto;
-        width: 12%;
+        min-width: 75px;
         height: 35px;
         font-size: 16px;
         background-color: #113072;
@@ -140,10 +139,42 @@ iframe{
 }
 
 @media(max-width: 600px){
+    #video{
+        width: 400px;
+        height: 250;
+    }
     #content2{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        .itemPrice{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .container{
+        margin-top: 150px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(238, 238, 238);
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+        }
+
+        li{
+            padding-left: 60px;
+        }
     }
 }

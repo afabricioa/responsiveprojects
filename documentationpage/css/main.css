@@ -80,4 +80,31 @@ main ul {
   padding-left: 50px;
   color: #7a7878;
 }
+
+@media (max-width: 600px) {
+  nav {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 210px;
+    min-width: 500px;
+    left: 0;
+  }
+  nav header {
+    width: 100%;
+  }
+  nav ul {
+    width: 100%;
+    display: block;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  main {
+    margin: 0;
+    margin-top: 230px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
